@@ -1,0 +1,36 @@
+body {
+	margin: 0px !important;
+}
+
+#editor {
+	margin-top: 8px;
+	margin-left: 8px;
+	height: calc(18vh - 9px);
+	border-bottom: 1px solid #000000
+}
+
+#field {
+	width: 100vw;
+	height: 75vh;
+	background-color: #000000;
+}
+
+#btnSum {
+	display: flex;
+}
+
+#btnSum p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#sum {
+	margin-left: 5px;
+}
+
+.fieldBtn {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}

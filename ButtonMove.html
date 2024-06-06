@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/src/style.css">
+		<link rel="stylesheet" href="ButtonMove.css">
+		<! JQuery is used for loading various objects>
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<! This is the main javascript file for most sites>
+		<script type="text/javascript" src="/src/main.js"></script>
+		<script type="text/javascript" src="ButtonMove.js"></script>
+		<title>Fastbuck's College Football Ratings</title>
+	</head>
+
+	<body>
+		<div id="navbar">
+		</div>
+		<! Dummy object to hold the navbar>
+		<div id="spacer">
+		</div>
+		
+		<! Used to prevent the website from displaying anything until it is fully loaded>
+		<div id="loadholder">
+			<div id="loader">
+			</div>
+		</div>
+
+		<div id="content">
+			<div id="editor">
+				<div id="buttons">
+					<button onclick="makeButton()">
+						Make Button
+					</button>
+					<button id="mover" onclick="startMove()">
+						Move
+					</button>
+				</div>
+				
+				<select id="selector">
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="blue">Blue</option>
+					<option value="yellow">Yellow</option>
+					<option value="white">White</option>
+				</select>
+				<div id="btnSum">
+					<p>Sum of clicked: </p>
+					<p id="sum">0</p>
+				</div>
+			</div>
+			<div id="field">
+			</div>
+		</div>
+	</body>
+</html>
